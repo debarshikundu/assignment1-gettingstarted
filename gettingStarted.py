@@ -6,9 +6,15 @@ def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
     if question == "Are encoding and encryption the same? - Yes/No":
-        answer = "The student should type the answer here"
+        answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "The student should type the answer here"
+        answer = "No"
+    elif question == "Is it possible to decode a message without a key? - Yes/No":
+        answer = "Yes"
+    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+        answer = "No"
+    elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code -":
+        answer = "526a68e6d475c5c9a0634e0d315741008afa6febfaf2f3bcae089e00716fd790"
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
